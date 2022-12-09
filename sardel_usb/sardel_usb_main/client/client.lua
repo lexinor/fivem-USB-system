@@ -1,12 +1,3 @@
-ESX = nil
-
-Citizen.CreateThread(function() 
-    while ESX == nil do
-        TriggerEvent(Config.Clienttrigger, function(obj) ESX = obj end)
-        Citizen.Wait(0)
-    end
-end)
-
 local levels = Config.Levels
 local lifes = Config.Lifes
 local time = Config.Time 
