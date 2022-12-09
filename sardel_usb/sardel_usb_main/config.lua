@@ -1,9 +1,5 @@
 Config = {}
 
---esx
-Config.Clienttrigger = 'esx:getSharedObject' --client esx trigger
-Config.Serverrigger = 'esx:getSharedObject' --server esx trigger
-
 --minigame
 Config.Levels = 1 --minigame level min. 1 - 4 max
 Config.Lifes = 5 --minigame lifes min. 1 - 6 max
