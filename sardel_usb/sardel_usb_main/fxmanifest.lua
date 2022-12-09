@@ -1,8 +1,7 @@
---discord https://discord.gg/vQfaQdQkGa --
 fx_version 'cerulean'
 games {'gta5'}
 
-author '!Mates#3939 and ..J0hN70#8599 from sardel development'
+author ''
 description 'USB SYSTEM'
 version '1.0.0'
 
@@ -17,5 +16,5 @@ server_scripts {
 shared_scripts {
 	'@es_extended/imports.lua',
 	'@es_extended/locale.lua',
-    'config.lua'
+	'config.lua'
 }
